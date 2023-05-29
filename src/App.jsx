@@ -2,6 +2,7 @@ import Nav from "./components/Nav.jsx"
 import Travel from "./components/Travel.jsx"
 import Data from "./Data.js"
 import React from "react"
+import "./App.css"
 
 
 export default function App() {

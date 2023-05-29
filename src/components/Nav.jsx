@@ -1,5 +1,5 @@
 import React from "react"
-import Nav from "./Nav.css"
+import "./Nav.css"
 
 export default function Navbar() {
     const styles = {

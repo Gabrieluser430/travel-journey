@@ -1,5 +1,5 @@
 import React from 'react'
-import Travel from "./Travel.css"
+import  "./Travel.css"
 
 
 export default function MainContent(props) {
