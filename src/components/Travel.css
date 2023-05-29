@@ -15,8 +15,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-left: 17rem; */
-    /* background-color: black; */
 }
 
 .place-img {
@@ -27,7 +25,6 @@
 }
 
 .black-container {
-    /* background-color: black; */
     padding: 2rem;
     height: 33rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -35,7 +32,6 @@
 }
 
 .place-info {
-    /* background-color: blue;  */
     display: flex;
     align-items:center;
     justify-content: start;
@@ -62,20 +58,17 @@
 }
     
 .place-name {
-    /* color: blue; */
     font-size: 4.3rem;
     font-weight: 700;
     padding-top: 1rem;
 }
 
 .place-date {
-    /* color: blue; */
      font-size: 1.7rem;
      font-weight: 700;
 }
 
 .place-description {
-    /* background-color: red; */
     font-size: 1.7rem;
     width: 50rem;
     margin-top: 3rem;
@@ -109,39 +102,36 @@
     }
 
     .local-img {
-        width: 1.5rem;
+        width: 1.8rem;
     }
 
     .city {
         letter-spacing: 3px;
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin-left: 0.5rem;
         margin-right: 2rem;
     }
 
     .maps-link {
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: #918E9B;
         text-decoration: underline;
         padding-right: 2rem;
     }
         
     .place-name {
-        /* color: blue; */
         font-size: 3.8rem;
         font-weight: 700;
         padding-top: 1rem;
     }
 
     .place-date {
-        /* color: blue; */
             font-size: 1.2rem;
             font-weight: 700;
     }
 
     .place-description {
-        /* background-color: red; */
         font-size: 1.2rem;
         width: 34.2rem;
         margin-top: 3rem;
@@ -172,39 +162,36 @@
     }
 
     .local-img {
-        width: 1.2rem;
+        width: 1.4rem;
     }
     
     .city {
         letter-spacing: 3px;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin-left: 0.5rem;
         margin-right: 2rem;
     }
     
     .maps-link {
         font-weight: 500;
-        font-size: 0.8;
+        font-size: 1.2rem;
         color: #918E9B;
         text-decoration: underline;
         padding-right: 2rem;
     }
         
     .place-name {
-        /* color: blue; */
         font-size: 2.8rem;
         font-weight: 700;
         padding-top: 1rem;
     }
     
     .place-date {
-        /* color: blue; */
          font-size: 1rem;
          font-weight: 700;
     }
     
     .place-description {
-        /* background-color: red; */
         font-size: 1rem;
         width: 29.2rem;
         margin-top: 2.5rem;
@@ -261,16 +248,88 @@
     }
     
     .place-date {
-        /* color: blue; */
          font-size: 0.8rem;
          font-weight: 700;
     }
     
     .place-description {
-        /* background-color: red; */
         font-size: 0.8rem;
         width: 19rem;
         margin-top: 1.8rem;
         font-weight: 400;
+    }
+}
+
+@media (max-width: 430px) {
+    .change-button {
+        width: 19rem; 
+        margin-top: 3rem;
+        height: 5rem;
+    }
+
+    .highest-container {
+        flex-direction: column;
+    }
+
+    .place-img {
+        width: 22.6rem;
+        height: 16.7rem;
+        padding: 1rem;
+        border-radius: 25px;
+    }
+
+    .black-container {
+        height: 23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .place-info {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .local-img {
+        width: 2rem;
+    }
+    
+    .city {
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+    .maps-link {
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #918E9B;
+        text-decoration: underline;
+        padding-right: 0rem;
+    }
+        
+    .place-name {
+        font-size: 2.2rem;
+        font-weight: 700;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .place-date {
+         font-size: 0.8rem;
+         font-weight: 700;
+    }
+    
+    .place-description {
+        font-size: 0.8rem;
+        width: 16.7rem;
+        margin-top: 0.7rem;
+        font-weight: 400;
+        text-align: center;
     }
 }
