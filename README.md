@@ -26,7 +26,7 @@ In this project, I had to manipulate state to render different components, and t
 ### Built with
 - HTML5
 - CSS3
-- Sass
+- Bootstrap
 - React
 - Vite
 
